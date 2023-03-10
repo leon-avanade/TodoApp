@@ -27,4 +27,4 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Publish
-      run: dotnet publish TodoApp/TodoList.csproj -c Release -o website
+      run: dotnet publish TodoApp/TodoApp/TodoList.csproj -c Release -o website
